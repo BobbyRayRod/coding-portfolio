@@ -1,29 +1,21 @@
 
-ul {
-    list-style-type: none;
-    /* Remove bullets */
-    padding: 0;
-    /* Remove padding */
-    margin: 0;
-    /* Remove margins */
+section {
+    height: 500px;
+    background-color: rgba(0, 2, 146, 0.589);
+    border: solid black 1px;     
 }
-html,
- body {
-     font-family: "Verdana", sans-serif
- }
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     font-family: "Segoe UI", sans-serif
- }
-
- .list, .list-item {
-    display:inline-block; 
+.hero {
+    background-color: #1c1d1c;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
 
 
- }
+footer {
+  height: 500px;
+  background-color: blueviolet;  
 
+
+}
