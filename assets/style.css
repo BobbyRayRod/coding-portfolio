@@ -1,5 +1,12 @@
 
-
+ul {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
 html,
  body {
      font-family: "Verdana", sans-serif
@@ -13,3 +20,10 @@ html,
  h6 {
      font-family: "Segoe UI", sans-serif
  }
+
+ .list, .list-item {
+    display:inline-block; 
+
+
+ }
+
