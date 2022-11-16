@@ -9,7 +9,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d1c;
+    background-color: #2C78DB;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -17,7 +17,7 @@ section {
 
 footer {
   height: 500px;
-  background-color: blueviolet;  
+  background-color: #233349;  
 }
 
 nav {
@@ -40,9 +40,11 @@ li {
 
 h1 {
     font-size: 90px;
-
+    margin: 0;
 }
-
+p {
+    margin: 0;
+}
 .hero-text {
     margin-left: 90px;
 }
