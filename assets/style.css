@@ -1,9 +1,11 @@
-
+body {
+    font-family: 'Nabla', cursive;
+        font-family: 'Titillium Web', sans-serif;
+}
 section {
     height: 500px;
     background-color: rgba(0, 2, 146, 0.589);
-    border: solid black 1px;     
-
+    border: solid black 1px; 
 }
 
 .hero {
@@ -11,28 +13,45 @@ section {
     height: 100vh;
     color: white;
     font-size: 40px;
-
 }
-
 
 footer {
   height: 500px;
   background-color: blueviolet;  
-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-
 }
 
 
 ul {
     display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
 }
 
 li {
-    width: 200px;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+
+}
+
+.hero-text {
+    margin-left: 90px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: grey;
+    text-align: center;
+    
 }
